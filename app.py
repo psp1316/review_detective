@@ -120,4 +120,4 @@ def analyze_reviews(reviews):
             return "Overall, the product has mixed reviews. It's a hit or miss!"
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(debug=False,host='0.0.0.0')
