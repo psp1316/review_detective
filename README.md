@@ -1,7 +1,7 @@
 <h1 align="center">Review Detective</h1>
 
 <p align="center">
-  <img src="https://github.com/your-username/review-detective/blob/main/logo.png" alt="Review Detective Logo">
+  <img src="https://m.media-amazon.com/images/I/61aPimOGsML.png" alt="Review Detective Logo">
 </p>
 
 <p align="center">
