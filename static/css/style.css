@@ -118,7 +118,7 @@ button[type="submit"]:hover {
     font-weight: bold;
     animation: fadeIn 0.5s ease;
     position: relative;
-    top: 250px;
+    top: 200px;
 }
 
 
