@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Review Detective</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <h1>Review Detective</h1>
+    <div class="url">
+        <form id="productForm">
+            <label for="productLink" class="op">Product Link:</label>
+            <input type="text" id="productLink" placeholder="Paste the product link here" required>
+            <button type="submit">Analyze</button>
+        </form>
+    </div>
+    <div id="resultContainer">
+        <!-- The sentiment analysis result will be displayed here -->
+    </div>
+
+    <div id="popupContainer">
+        <!-- The popup message will be displayed here -->
+    </div>
+
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+</body>
+</html>
